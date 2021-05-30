@@ -1,6 +1,6 @@
 import '../assets/sass/main.scss'
-import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
+//import Swiper from 'swiper';
+//import 'swiper/swiper-bundle.css';
 import Swiper from 'swiper/bundle';
 
 window.addEventListener('load', () => {

@@ -68,19 +68,23 @@ html,body{
             }
         }
         a{
-            text-decoration: none;
+            text-decoration: underline solid $corporateColor!important;
             font-weight: bold;
-            border-bottom: solid 1px $corporateColor;
+            //border-bottom: solid 1px $corporateColor;
             color: $body_color;
             :hover{
-                color: #214093;
+                color: #214093!important;
             }
             &.onyellow{
                 color: white;
-                border-bottom: solid 1px $body_color;
+                text-decoration: underline solid $body_color!important;
             }
         }
         
+}
+a:hover{
+    color: #214093!important;
+
 }
 @media screen{
     .alt_img{

@@ -451,10 +451,11 @@ a:hover{
          }
     }
     .video_gallery{
-        .w50{
+        .dw50{
             margin-top: $base;
             margin-bottom: $base;
         }
+
     }
     
     
@@ -527,6 +528,10 @@ a:hover{
             }
             .w50{
                 width: 48%;
+            }
+            .dw50{
+                width:50%;
+               
             }
             .w25{
                 width:24%;
